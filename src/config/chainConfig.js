@@ -1,4 +1,4 @@
-import { CHAIN_NAMESPACES, CustomChainConfig } from "@web3auth/base";
+import { CHAIN_NAMESPACES } from "@web3auth/base";
 
 export const CHAIN_CONFIG = {
   mainnet: {
@@ -9,7 +9,7 @@ export const CHAIN_CONFIG = {
     blockExplorer: "https://etherscan.io/",
     ticker: "ETH",
     tickerName: "Ethereum",
-  } as CustomChainConfig,
+  },
   solana: {
     chainNamespace: CHAIN_NAMESPACES.SOLANA,
     rpcTarget: "https://api.mainnet-beta.solana.com",
@@ -18,7 +18,7 @@ export const CHAIN_CONFIG = {
     displayName: "Solana Mainnet",
     ticker: "SOL",
     tickerName: "Solana",
-  } as CustomChainConfig,
+  },
   polygon: {
     chainNamespace: CHAIN_NAMESPACES.EIP155,
     rpcTarget: "https://polygon-rpc.com",
@@ -27,11 +27,9 @@ export const CHAIN_CONFIG = {
     displayName: "Polygon Mainnet",
     ticker: "matic",
     tickerName: "Matic",
-  } as CustomChainConfig,
+  },
   tezos: {
     chainNamespace: CHAIN_NAMESPACES.OTHER,
     displayName: "Tezos Ithacanet",
-  } as CustomChainConfig,
-} as const;
-
-export type CHAIN_CONFIG_TYPE = keyof typeof CHAIN_CONFIG;
+  },
+};
