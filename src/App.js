@@ -16,17 +16,11 @@ function App() {
           <a target="_blank" href="http://web3auth.io/" rel="noreferrer">
             Web3Auth
           </a>{" "}
-          & ReactJS Example
+          & Demo
         </h1>
         <Setting setNetwork={setWeb3AuthNetwork} setChain={setChain} />
         <Main />
       </Web3AuthProvider>
-      <footer className={styles.footer}>
-        <a href="https://github.com/Web3Auth/Web3Auth/tree/master/demo/react-app" target="_blank" rel="noopener noreferrer">
-          Source code {"  "}
-          <img className={styles.logo} src="/images/github-logo.png" alt="github-logo" />
-        </a>
-      </footer>
     </div>
   );
 }
