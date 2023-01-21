@@ -1,4 +1,4 @@
-# Web3Auth x React Demo App
+# Web3Auth x React App
 
 ## Quickstart
 
