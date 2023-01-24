@@ -1,4 +1,4 @@
-# Web3Auth x React App
+# Web3Auth x React 18
 
 ## Quickstart
 
